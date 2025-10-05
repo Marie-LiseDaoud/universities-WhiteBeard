@@ -6,7 +6,7 @@ import colors from "../../../config/colors.js";
 const Text = ({
   weight = "regular",
   fontSize = 16,
-  color = colors.violet.dark.default,
+  color = colors.black.normal.default,
   children,
   textAlign,
   style,

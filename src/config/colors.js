@@ -1,22 +1,22 @@
 const colors = {
-  violet: {
+  black: {
     light: {
-      default: "#eae9ef",
-      hover: "#dfdee7",
-      active: "#bcbcce",
+      default: "#333333",
+      hover: "#2a2a2a",
+      active: "#222222",
     },
     normal: {
-      default: "#282660",
-      hover: "#242256",
-      active: "#201e4d",
+      default: "#000000",
+      hover: "#111111",
+      active: "#1a1a1a",
     },
     dark: {
-      default: "#1e1d48",
-      hover: "#18173a",
-      active: "#12112b",
+      default: "#000000",
+      hover: "#000000",
+      active: "#000000",
     },
     darker: {
-      default: "#0e0d22",
+      default: "#000000",
     },
   },
   green: {

@@ -8,9 +8,11 @@ import { thunk } from "redux-thunk";
 import reactotron from "../ReactotronConfig";
 
 import universitiesReducer from "./reducers/universitiesReducer";
+import filtersReducer from "./reducers/filtersReducer";
 
 const reducers = combineReducers({
   universities: universitiesReducer,
+  filters: filtersReducer,
 });
 
 const persistConfig = {
